@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
   get "posts/:id/edit" => "posts#edit"
   post "posts/:id/update" => "posts#update"
+  post "posts/:id/destroy" => "posts#destroy"
 
   get "posts/index" => "posts#index"
   get "posts/new" => "posts#new"
